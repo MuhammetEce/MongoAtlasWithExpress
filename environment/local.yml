@@ -1,0 +1,16 @@
+---
+
+NODE_ENV: "local"
+
+mongodb:
+  url: 'mongodb+srv://remote_db_user:53f1Bh8k339ivIXz@sampleremote.i1jbrku.mongodb.net/remote_db'
+
+
+domain: http://localhost:3032
+
+http:
+  port: 3032
+
+JWTSecret: 'AQSEF'
+JWTExpiry: '30d'
+
